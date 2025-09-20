@@ -1,0 +1,12 @@
+.header{
+    font-size: 10vw;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.paragraphs{
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+}

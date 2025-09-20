@@ -1,0 +1,19 @@
+.card{
+    margin-left: 5vw;
+    background-color: #1c1021;
+    color: white;
+    align-items: center;
+    width: 80vw;
+    padding-left:10vw;
+
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+.timeplace{
+    align-self: left;
+
+    background-color: #0b1420;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}

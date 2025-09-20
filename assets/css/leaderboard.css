@@ -1,0 +1,37 @@
+.lb-main {
+    align-items: center;
+    padding-top:10vw;
+    
+}
+
+
+.lb-row{
+    display: flexbox;
+    padding: 1vw;
+    width: 80vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.form{
+    font-size: 4.5vw;
+    color: aliceblue;
+    margin-left: 3vw;
+}
+
+
+.form-top{
+    font-size: 3.7vw;
+    color: aliceblue;
+    padding-left: 1.8vw;
+}
+.form-top2{
+    font-size: 3.7vw;
+    color: aliceblue;
+    padding-left: 16vw;
+}
+
