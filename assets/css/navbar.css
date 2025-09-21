@@ -6,15 +6,14 @@
 .top-menu {
     align-items: center;
     width: 100%;
-    background-color: #0f131b;
+    background-color: #0A0A23;
     z-index: 3;
     position: fixed;
-    margin-top: -11vw;
 }
 
 a.top-a {
  text-decoration: none;
- font-size: 3vh;
+ font-size: 4vh;
  cursor: pointer;
  border: none;
  outline: none;

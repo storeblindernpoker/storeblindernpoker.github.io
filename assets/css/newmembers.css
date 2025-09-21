@@ -1,5 +1,5 @@
 .header{
-    font-size: 10vw;
+    font-size: 8vw;
     position: relative;
     color: white;
     text-align: center;
@@ -8,5 +8,5 @@
 .paragraphs{
     color: aliceblue;
     text-align: center;
-    font-size: medium;
+    font-size: 5vw;
 }

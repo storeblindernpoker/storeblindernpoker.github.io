@@ -1,19 +1,36 @@
 .card{
-    margin-left: 5vw;
-    background-color: #1c1021;
+    margin-left: 3vw;
     color: white;
-    align-items: center;
-    width: 80vw;
-    padding-left:10vw;
+    width: 87vw;
+    background-color: #2C3E50;
+    padding-left:5vw;
 
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,.35);
 }
 
 .timeplace{
+    display: inline-block;
     align-self: left;
-
-    background-color: #0b1420;
-    border-radius: 10px;
+    margin-bottom: 1.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #0A0A23;
+    border-radius: 999px;
     box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+.top-text{
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+
+.bottom-text{
+    padding-bottom: 3vh;
+    padding-left: 1vw;
+}
+
+.main-header{
+    color: white;
+    margin-left: 10vw;
 }
