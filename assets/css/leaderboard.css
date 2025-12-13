@@ -1,37 +1,94 @@
-.lb-main {
-    align-items: center;
-    padding-top:10vw;
-    
+body {
+    background-color: #0A0A23; /*Dark background to match navbar*/
+    /* Add a subtle background texture/image for depth */
+    background-image: url('../images/backGround.jpg'); /* Replace with a path to a pattern */
+    background-attachment: fixed;
+    background-repeat: repeat;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
+.main-header{
+    color: azure;
+    justify-content: center;
+}
+
+.lb-main {
+    padding-top: 4vw;  
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 1rem; 
+}
+
+.header {
+    font-size: 9vw;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-left: 8vw;
+
+}
 
 .lb-row{
-    display: flexbox;
+    display: flex;
+    width: 86%;
+    
     padding: 1vw;
-    width: 80vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    margin-top: 2vh;
-    margin-left: 10vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    margin-left: 8vw;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    
+    /* Subtle Row Background */
+    background-color: rgba(0, 0, 0, 0.3); /* Slightly darker than lb-main */
+    
+    /* Light inner border */
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+    
+    /* Smooth transition for the hover effect */
+    transition: all 0.3s ease;
 }
 
-.form{
+.lb-row form { 
+    text-align: center; 
+    color: aliceblue; 
+    margin: 0;
+    padding: 0;
+
+    flex-basis: 0; 
+    flex-shrink: 1;
+}
+
+/* Column 1 (Change) - Ratio 1 */
+.lb-row form:nth-child(1) {
+    flex-grow: 1.5; 
+}
+
+/* Column 2 (Rank) - Ratio 1 */
+.lb-row form:nth-child(2) {
+    flex-grow: 2;
+}
+
+/* Column 3 (Pseudonym) - Ratio 2 (Twice as wide) */
+.lb-row form:nth-child(3) {
+    flex-grow: 4; 
+}
+
+/* Column 4 (Points) - Ratio 2 (Twice as wide) */
+.lb-row form:nth-child(4) {
+    flex-grow: 2;
+}
+
+.lb-row:not(:first-child) form { /* Target forms in data rows */
     font-size: 4.5vw;
-    color: aliceblue;
-    margin-left: 3vw;
+}
+/* Specific styling for header row text */
+.lb-row:first-child form { /* Target forms in the header row */
+    font-size: 4.5vw;
 }
 
 
-.form-top{
-    font-size: 3.7vw;
-    color: aliceblue;
-    padding-left: 1.8vw;
-}
-.form-top2{
-    font-size: 3.7vw;
-    color: aliceblue;
-    padding-left: 16vw;
-}
+
 

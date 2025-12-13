@@ -1,0 +1,11 @@
+Gjør at man kan velge sesong på leaderboard (se gamle sesonger)
+LeaderBoard for gamle sesonger kan bare lagres som HTML sider 
+
+Kan ha en egen side som gir basic info om poker - texas holdem, omaha osv.
+
+Må gjøre at hamburgeren i navbar ser nice ut og at den funker 
+
+Kan gjøre navbar transparrent 
+
+
+Legge til logo i navbar kanskje?

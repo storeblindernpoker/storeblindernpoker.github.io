@@ -1,36 +1,121 @@
-.card{
+.card {
+    position: relative; /* Necessary for positioning the info button */
+    margin: 2rem auto;
+    color: azure;
+    width: 82vw;
     margin-left: 3vw;
-    color: white;
-    width: 87vw;
-    background-color: #2C3E50;
-    padding-left:5vw;
+    max-width: 600px;
+    background: rgba(44, 62, 80, 0.1); /* Semi-transparent */
+    backdrop-filter: blur(2px); /* Glass effect */
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+body {
+    background-color: #0A0A23; /*Dark background to match navbar*/
+    /* Add a subtle background texture/image for depth */
+    background-image: url('../images/backGround.jpg'); /* Replace with a path to a pattern */
+    background-attachment: fixed;
+    background-repeat: repeat;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .timeplace{
     display: inline-block;
     align-self: left;
-    margin-bottom: 1.5vw;
+    margin-bottom: 1vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    background-color: #0A0A23;
+    border-style: double;
     border-radius: 999px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    border-color: rgb(14, 14, 117, 0.7);
+    /* box-shadow: 0 10px 30px rgba(0,0,0,.35); */
+    font-size: 4vw;
+    color: inherit;
+}
+
+.info-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-style: italic;
+    font-family: serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+.info-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .top-text{
-    padding-top: 1vh;
     padding-left: 1vw;
+    font-size: 5vw;
+    font-weight: bold;
 }
 
 .bottom-text{
-    padding-bottom: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 0vh;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
     padding-left: 1vw;
+    font-size: 4vw;
 }
 
 .main-header{
-    color: white;
+    color: azure;
     margin-left: 10vw;
+}
+
+a{
+    color: inherit;
+}
+
+.spacer{
+    padding: 10vh;
+}
+
+/* --- Popup Styling --- */
+.popup-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #1a1a2e;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #3498db;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
 }

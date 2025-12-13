@@ -36,3 +36,17 @@ html, body {
     -1px  1px 0 #000,
      1px  1px 0 #000;
 }
+
+.text-main h1 {
+    /*
+     * 1. Min: 2rem (32px) - Prevents text from becoming tiny on phones.
+     * 2. Preferred: 5vw - Scales with the viewport width.
+     * 3. Max: 5rem (80px) - Prevents text from becoming enormous on desktops.
+     */
+    font-size: clamp(4rem, 9vw, 5rem);
+    
+    /* You can apply additional styling here */
+    color: white; /* Example */
+    font-family: 'Times New Roman', Times, serif; /* Example */
+    font-weight: 700;
+}

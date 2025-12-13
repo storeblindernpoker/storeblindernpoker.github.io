@@ -9,28 +9,55 @@
   <link rel="stylesheet" href="assets/css/events.css">
 </head>
 <body>
-    <script src="assets/js/include.js"></script>
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/eventsTop.js"></script>
   <div id="navbar-container"></div>
+  <script src="assets/js/navbar.js"></script>
+
 
   <main style="margin-top:4rem;">
+    
     <div class="main-header">
       <h1>
         Future events
       </h1>
     </div>
-    <div class="card">
+    <div id="futureEvents">
+
+    </div>
+    <script src="assets/js/events.js"></script>
+    <!--<div class="card">
+      <button class="info-btn" onclick="togglePopup('event1-info')">i</button>
       <div class="top-text">
-        <h3>Event name</h3>
+        Event name
       </div>
       <div class="timeplace">
         <p>Monday, September 28, 2025 at 5:00P PM</p>
       </div>
       <div class="timeplace">
-        <p>UiO - Abelstua NilsHenrik abes hus</p>
+        <a href="https://link.mazemap.com/by8g1DI5" target="_blank">
+          <p>UiO - Abelstua NilsHenrik abes hus</p>
+        </a>  
       </div>
-      <div>
-        <p class="bottom-text">3. round of the semester Texas hold'em tournament.</p>
+      <div class="bottom-text">
+        3. round of the semester Texas hold'em tournament.
       </div>
+      <div id="event1-info" class="popup-overlay">
+        <div class="popup-content">
+          <span class="close-btn" onclick="togglePopup('event1-info')">&times;</span>
+          <h2>Event Details</h2>
+          <p>Here is some extra information about the Texas hold'em tournament.and we provide snacks!</p>
+        </div>
+      </div>
+    </div>-->
+    <div class="spacer"></div>
+    <div class="main-header">
+      <h1>
+        Past events
+      </h1>
+    </div>
+    <div id="pastEvents">
+
     </div>
   </main>
 </body>
