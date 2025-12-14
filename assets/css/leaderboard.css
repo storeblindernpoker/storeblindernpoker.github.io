@@ -1,7 +1,7 @@
 body {
     background-color: #0A0A23; /*Dark background to match navbar*/
     /* Add a subtle background texture/image for depth */
-    background-image: url('../images/backGround.png'); /* Replace with a path to a pattern */
+    background-image: url('../images/background.png'); /* Replace with a path to a pattern */
     background-attachment: fixed;
     background-size: 100vw auto;
     background-repeat: repeat;
