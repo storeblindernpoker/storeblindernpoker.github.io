@@ -1,20 +1,32 @@
-     <nav class="top-menu" id="contentTop">
-      <ul>
-        <form class="form-top">
-          <button clsas="hamburger" id ="hamburger">&#9776;</button>
-        </form>
-        <form class="form-top">
-          <a class="top-a" href="index.html">Home</a>
-        </form>
-        <form method="get" class="form-top">
-          <a class="top-a" href="leaderboard.html">Leaderboard</a>
-        </form>
-        <form method="get" class="form-top">
-          <a class="top-a" href="events.html">Events</a>
-        </form>
-        <form method="get" class="form-top">
-          <a class="top-a" href="newmembers.html">New members</a>
-        </form>
-      </ul>
-    </nav>
+<nav class="top-menu" id="contentTop">
+  <ul>
+    <form class="form-top" id="hamburger-form">
+      <label class="burger" for="burger-toggle">
+        <input type="checkbox" id="burger-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </form>
 
+    <form class="form-top">
+      <a class="top-a" href="index.html">Home</a>
+    </form>
+    <form method="get" class="form-top">
+      <a class="top-a" href="leaderboard.html">Leaderboard</a>
+    </form>
+    <form method="get" class="form-top">
+      <a class="top-a" href="events.html">Events</a>
+    </form>
+    <form method="get" class="form-top">
+      <a class="top-a" href="newmembers.html">New members</a>
+    </form>
+  </ul>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="leaderboard.html">Leaderboard</a>
+    <a href="events.html">Events</a>
+    <a href="newmembers.html">New members</a>
+  </div>
+</nav>

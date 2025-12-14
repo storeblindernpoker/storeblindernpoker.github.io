@@ -1,24 +1,43 @@
-async function loadLeaderboard() {
+async function loadLeaderboard(filename) {
     const container = document.getElementById('leaderboard-body');
-    
+    if (!container) return;
+
+    // --- STEP A: Clear old data rows ---
+    // We select all rows inside the container...
+    const allRows = container.querySelectorAll('.lb-row');
+    // ...and remove them, IGNORING the first one (because that is your Header)
+    for (let i = 1; i < allRows.length; i++) {
+        allRows[i].remove();
+    }
+
     try {
-        // 1. Fetch the text file
-        const response = await fetch('assets/data/leaderBoards/leaderBoardSeason1V1');
+        // --- STEP B: Fetch the specific file passed in the argument ---
+        // const response = await fetch(`assets/data/leaderBoards/${filename}`);
+        const response = await fetch(`assets/data/leaderBoards/${filename}`);
+        // const response = await fetch('assets/data/leaderBoards/season2');
+        
+        // Check if file exists
+        if (!response.ok) {
+            console.error("File not found:", filename);
+            return;
+        }
+
         const data = await response.text();
 
-        // 2. Split text into individual lines and loop through them
+        // --- STEP C: Process the text ---
         const lines = data.trim().split('\n');
 
         lines.forEach(line => {
-            // 3. Split each line by the comma
-            const [change, rank, name, points] = line.split(',');
+            // Remove any extra whitespace from the line (carriage returns)
+            const cleanLine = line.trim();
+            if (!cleanLine) return; // Skip empty lines
+
+            const [change, rank, name, points] = cleanLine.split(',');
 
             if (change && rank && name && points) {
-                // 4. Create the row div
                 const row = document.createElement('div');
                 row.className = 'lb-row';
 
-                // 5. Construct the inner HTML
                 row.innerHTML = `
                     <form class="form">${change}</form>
                     <form class="form">${rank}</form>
@@ -26,7 +45,6 @@ async function loadLeaderboard() {
                     <form class="form">${points}</form>
                 `;
 
-                // 6. Add the row to the container
                 container.appendChild(row);
             }
         });
@@ -35,5 +53,17 @@ async function loadLeaderboard() {
     }
 }
 
-// Run the function when the page loads
-window.addEventListener('DOMContentLoaded', loadLeaderboard);
+// --- STEP D: Event Listeners ---
+window.addEventListener('DOMContentLoaded', () => {
+    const picker = document.getElementById('season-select');
+    
+    // 1. Load the default selected season immediately
+    if (picker) {
+        loadLeaderboard(picker.value);
+
+        // 2. Listen for changes on the dropdown
+        picker.addEventListener('change', function() {
+            loadLeaderboard(this.value);
+        });
+    }
+});

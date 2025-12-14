@@ -1,16 +1,74 @@
 body {
     background-color: #0A0A23; /*Dark background to match navbar*/
     /* Add a subtle background texture/image for depth */
-    background-image: url('../images/backGround.jpg'); /* Replace with a path to a pattern */
+    background-image: url('../images/backGround.png'); /* Replace with a path to a pattern */
     background-attachment: fixed;
+    background-size: 100vw auto;
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
+    margin: 0;
+    padding: 0;
 }
+
+/* 1. Center the picker */
+.season-picker-div {
+    display: flex;           /* Correct way to layout */
+    justify-content: center; /* Center horizontally */
+    width: 100%;
+}
+
+/* 2. The Main Dropdown Button */
+.season-picker {
+    /* Critical: Removes the ugly default system styling */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    /* Transparency & Rounding */
+    background-color: rgba(0, 0, 0, 0.4); /* Transparent dark background */
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px; /* ROUNDED CORNERS */
+    
+    /* Text Styling */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+    /* Spacing: Right padding is large to make room for the arrow */
+    padding: 10px 50px 10px 20px;
+    cursor: pointer;
+    outline: none;
+
+    /* --- Custom Arrow SVG --- */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 12px;
+    
+    transition: all 0.3s ease;
+}
+
+/* 3. Hover Effects for the main box */
+.season-picker:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Darkens slightly on hover */
+    border-color: white; /* Border brightens */
+}
+
+/* 4. Styling the Dropdown Options 
+   NOTE: This works in Firefox/Edge but is often ignored by Chrome/Safari */
+.season-picker option {
+    background-color: #0A0A23; /* Dark background for the list */
+    color: white;
+    padding: 10px;
+}
+
 
 .main-header{
     color: azure;
     justify-content: center;
+    width: 95vw;
 }
 
 .lb-main {

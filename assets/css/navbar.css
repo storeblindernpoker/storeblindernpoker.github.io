@@ -6,6 +6,21 @@
     position: fixed;
     display: flex;
     white-space: nowrap;
+    
+    /* Deep Emerald Green with 85% opacity */
+    background: rgba(0,0,0, 0.3);
+    
+    /* Optional: A thin lighter green border bottom */
+    /* border-bottom: 1px solid rgba(46, 139, 87, 0.5); */
+    
+    /* Glass blur */
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+}
+
+.top-menu.menu-open {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    transition: background-color 0.2s ease;
 }
 
 
@@ -17,14 +32,113 @@ font-weight: 700;
 font-size: 3vh;
 }
 
-/* Hide hamburger on large screens */
-.hamburger {
-    font-size: 4vh;
-    color: white;
+
+
+
+
+/* From Uiverse.io by Cevorob */ 
+.burger {
+  position: relative;
+  width: 5vh;
+  height: 4vh;
+  background: transparent;
+  cursor: pointer;
+  
+  /* Important: ensures it sits nicely in the line */
+  display: inline-block; 
+  vertical-align: bottom;
 }
 
-/* Your existing link styling stays the same */
+.burger input {
+  display: none;
+}
 
+.burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: white !important;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
+
+.burger input:checked ~ span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0.5vh;
+  left: 5px;
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 3wh;
+  left: 5px;
+}
+
+
+
+/* --- Mobile Menu Container --- */
+.mobile-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Pushes it directly below the navbar */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9); /* Match navbar color */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    z-index: 10; /* Ensure it sits on top of other content */
+}
+
+/* --- The 'Active' class that JS will toggle --- */
+.mobile-menu.active {
+    display: flex; /* Makes it visible */
+}
+
+/* --- Mobile Menu Links --- */
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1); /* Separator lines */
+    transition: background 0.3s;
+}
+
+.mobile-menu a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: #b9b9b9;
+}
 
 .form-top {
     display: inline-block;
@@ -34,40 +148,40 @@ font-size: 3vh;
 
 
 a.top-a {
-text-decoration: none;
-font-size: 4vh;
-cursor: pointer;
-border: none;
-outline: none;
-background: transparent;
-color: white;
-font-family: 'Times New Roman', Times, serif;
-font-weight: 700;
-position: relative;
-transition: all 0.5s;
-z-index: 1;
+    text-decoration: none;
+    font-size: 4vh;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
 }
 
 a.top-a::before {
-content: "";
-position: absolute;
-margin-left: -1vw;
-width: 0.2vw;
-height: 100%;
-background-color: white;
-z-index: -1;
-transition: all 0.5s;
+    content: "";
+    position: absolute;
+    margin-left: -1vw;
+    width: 0.2vw;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: all 0.5s;
 }
 
 a.top-a:hover::before {
-width: 100%;
-margin-left: 0vw;
+    width: 100%;
+    margin-left: 0vw;
 }
 
 a.top-a:hover {
-color: black;
+    color: black;
 }
 
 a.top-a:active:before {
-background: #b9b9b9;
+    background: #b9b9b9;
 }
