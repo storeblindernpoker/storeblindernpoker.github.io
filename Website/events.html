@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events — Store Blindern Poker</title>
+  <meta name="description" content="Upcoming and past poker nights hosted by Store Blindern Poker.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♠</text></svg>">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container nav__inner">
+        <a href="index.html" class="nav__brand">
+          <span class="nav__brand-icon">♠</span>
+          Store Blindern Poker
+        </a>
+        <button class="nav__toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav__links">
+          <a href="index.html" class="nav__link">Home</a>
+          <a href="events.html" class="nav__link nav__link--active">Events</a>
+          <a href="leaderboard.html" class="nav__link">Leaderboard</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <h1 class="page-header__title fade-in">Events</h1>
+        <p class="page-header__subtitle fade-in fade-in-delay-1">All our poker nights — past and upcoming. Click any event for details.</p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-content">
+      <div class="container">
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs fade-in fade-in-delay-2">
+          <button class="filter-tab filter-tab--active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="upcoming">Upcoming</button>
+          <button class="filter-tab" data-filter="past">Past</button>
+        </div>
+
+        <!-- Events List -->
+        <div id="events-container" class="fade-in fade-in-delay-3">
+          <!-- Loaded dynamically from data/events.json -->
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="footer__text">© 2026 Store Blindern Poker</span>
+        <div class="footer__links">
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="leaderboard.html" class="footer__link">Leaderboard</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Event Modal -->
+    <div class="event-modal-overlay"></div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

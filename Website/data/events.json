@@ -1,0 +1,79 @@
+[
+  {
+    "id": "evt-007",
+    "title": "Poker Night #7 — The River Runs Deep",
+    "date": "2026-03-12",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "Our seventh edition of the monthly poker night. Texas Hold'em, good company, and bragging rights at stake. All skill levels welcome.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "upcoming"
+  },
+  {
+    "id": "evt-006",
+    "title": "Poker Night #6 — Spring Showdown",
+    "date": "2026-02-19",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "Season opener for spring 2026. Fresh rankings, fresh start. Winner takes all.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "upcoming"
+  },
+  {
+    "id": "evt-005",
+    "title": "Poker Night #5 — Winter Finale",
+    "date": "2025-12-05",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "Last round of the fall season. Final chance to secure your ranking before the winter break.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "past"
+  },
+  {
+    "id": "evt-004",
+    "title": "Poker Night #4 — All In November",
+    "date": "2025-11-14",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "The stakes get higher. November edition with special side-pot tournament for the top 6.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "past"
+  },
+  {
+    "id": "evt-003",
+    "title": "Poker Night #3 — October Bluff",
+    "date": "2025-10-17",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "Third round in the series. Points count double for this spooky edition.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "past"
+  },
+  {
+    "id": "evt-002",
+    "title": "Poker Night #2 — The Flop Returns",
+    "date": "2025-09-19",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "Second edition. New faces, bigger pots, better bluffs.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "past"
+  },
+  {
+    "id": "evt-001",
+    "title": "Poker Night #1 — Inaugural Deal",
+    "date": "2025-08-22",
+    "time": "19:00",
+    "location": "Blindern Campus, Room 401",
+    "description": "The very first Store Blindern Poker night. Where it all began.",
+    "buyIn": "100 NOK",
+    "maxPlayers": 20,
+    "status": "past"
+  }
+]

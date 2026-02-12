@@ -1,0 +1,79 @@
+{
+  "season": "Spring 2026",
+  "lastUpdated": "2026-02-12",
+  "rounds": 6,
+  "players": [
+    {
+      "rank": 1,
+      "previousRank": 2,
+      "pseudonym": "The Shark",
+      "points": 2450
+    },
+    {
+      "rank": 2,
+      "previousRank": 1,
+      "pseudonym": "Ace High",
+      "points": 2380
+    },
+    {
+      "rank": 3,
+      "previousRank": 3,
+      "pseudonym": "Cold Bluff",
+      "points": 2150
+    },
+    {
+      "rank": 4,
+      "previousRank": 7,
+      "pseudonym": "River Rat",
+      "points": 1920
+    },
+    {
+      "rank": 5,
+      "previousRank": 4,
+      "pseudonym": "Pocket Kings",
+      "points": 1870
+    },
+    {
+      "rank": 6,
+      "previousRank": 5,
+      "pseudonym": "The Grinder",
+      "points": 1800
+    },
+    {
+      "rank": 7,
+      "previousRank": 6,
+      "pseudonym": "Chip Leader",
+      "points": 1650
+    },
+    {
+      "rank": 8,
+      "previousRank": 9,
+      "pseudonym": "Night Owl",
+      "points": 1520
+    },
+    {
+      "rank": 9,
+      "previousRank": 8,
+      "pseudonym": "Full House",
+      "points": 1480
+    },
+    {
+      "rank": 10,
+      "previousRank": 12,
+      "pseudonym": "Lucky Draw",
+      "points": 1350
+    },
+    {
+      "rank": 11,
+      "previousRank": 10,
+      "pseudonym": "Slow Roll",
+      "points": 1200
+    },
+    {
+      "rank": 12,
+      "previousRank": 11,
+      "pseudonym": "All In Andy",
+      "points": 1100
+    }
+  ]
+}
