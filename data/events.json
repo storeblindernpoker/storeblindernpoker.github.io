@@ -1,5 +1,16 @@
 [
   {
+    "id": "evt-004",
+    "title": "Texas Hold'em Semester Tournament Round 4",
+    "date": "2026-02-27",
+    "time": "18:00",
+    "location": "Blindern Campus, Vilhelm Bjerknes Hus, RF Kjelleren",
+    "locationUrl": "https://link.mazemap.com/fd04f1dt",
+    "registrationUrl": "https://nettskjema.no/a/601885",
+    "description": "The fourth round of the semester-long Texas Hold'em tournament. Last week we saw a new leader emerge, can they hold on to their position or will we see another shakeup in the standings?",
+    "status": "past"
+  },
+  {
     "id": "evt-003",
     "title": "Texas Hold'em Semester Tournament Round 3",
     "date": "2026-02-20",
@@ -8,7 +19,7 @@
     "locationUrl": "https://link.mazemap.com/fd04f1dt",
     "registrationUrl": "https://nettskjema.no/a/597669",
     "description": "The third round of the semester-long Texas Hold'em tournament. Players are starting to accumulate points, can we see a change in the leaderboard?",
-    "status": "upcoming"
+    "status": "past"
   },
   {
     "id": "evt-002",
