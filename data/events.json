@@ -1,5 +1,16 @@
 [
   {
+    "id": "evt-005",
+    "title": "Texas Hold'em Semester Tournament Round 5",
+    "date": "2026-03-06",
+    "time": "18:00",
+    "location": "Blindern Campus, Nils Henrik Abels Hus, Abelstua",
+    "locationUrl": "https://link.mazemap.com/BgdNsCdA",
+    "registrationUrl": "https://nettskjema.no/a/603917",
+    "description": "The fifth round of the semester-long Texas Hold'em tournament. ",
+    "status": "past"
+  },
+  {
     "id": "evt-004",
     "title": "Texas Hold'em Semester Tournament Round 4",
     "date": "2026-02-27",
