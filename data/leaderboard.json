@@ -1,210 +1,250 @@
 {
   "season": "Spring 2026",
-  "lastUpdated": "2026-02-24",
-  "rounds": 3,
+  "lastUpdated": "2026-03-02",
+  "rounds": 4,
   "players": [
     {
       "rank": 1,
+      "previousRank": 6,
+      "pseudonym": "Kingpin",
+      "points": 108925,
+      "highestPoints": 108925,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 2,
       "previousRank": 8,
+      "pseudonym": "The Goass",
+      "points": 94450,
+      "highestPoints": 94450,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 3,
+      "previousRank": 10,
+      "pseudonym": "Daddy Ace",
+      "points": 92925,
+      "highestPoints": 92925,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 4,
+      "previousRank": 1,
       "pseudonym": "Lil Rice",
       "points": 89200,
       "highestPoints": 89200,
       "lowestPoints": 40000
     },
     {
-      "rank": 2,
-      "previousRank": 22,
-      "pseudonym": "Big Bear",
-      "points": 85700,
-      "highestPoints": 85700,
-      "lowestPoints": 30500
-    },
-    {
-      "rank": 3,
-      "previousRank": 4,
-      "pseudonym": "Cruze",
-      "points": 84025,
-      "highestPoints": 84025,
+      "rank": 5,
+      "previousRank": 5,
+      "pseudonym": "Nori",
+      "points": 85450,
+      "highestPoints": 85450,
       "lowestPoints": 40000
     },
     {
-      "rank": 4,
-      "previousRank": 1,
+      "rank": 6,
+      "previousRank": 3,
+      "pseudonym": "Cruze",
+      "points": 84325,
+      "highestPoints": 84325,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 7,
+      "previousRank": 4,
       "pseudonym": "Snorkfrøken",
       "points": 83950,
       "highestPoints": 83950,
       "lowestPoints": 40000
     },
     {
-      "rank": 5,
-      "previousRank": 3,
+      "rank": 8,
+      "previousRank": 8,
+      "pseudonym": "Lukivanduki",
+      "points": 78425,
+      "highestPoints": 78425,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 9,
+      "previousRank": 5,
       "pseudonym": "Happy",
-      "points": 83925,
+      "points": 74925,
       "highestPoints": 83925,
       "lowestPoints": 40000
     },
     {
-      "rank": 6,
-      "previousRank": 2,
-      "pseudonym": "Kingpin",
-      "points": 75800,
-      "highestPoints": 83300,
-      "lowestPoints": 40000
-    },
-    {
-      "rank": 7,
-      "previousRank": 12,
+      "rank": 10,
+      "previousRank": 7,
       "pseudonym": "Mr. X",
       "points": 73575,
       "highestPoints": 73575,
       "lowestPoints": 40000
     },
     {
-      "rank": 8,
-      "previousRank": 7,
-      "pseudonym": "The Goass",
-      "points": 71950,
-      "highestPoints": 71950,
+      "rank": 11,
+      "previousRank": 2,
+      "pseudonym": "Big Bear",
+      "points": 70700,
+      "highestPoints": 85700,
+      "lowestPoints": 30500
+    },
+    {
+      "rank": 12,
+      "previousRank": 14,
+      "pseudonym": "Kitaï",
+      "points": 70300,
+      "highestPoints": 70300,
       "lowestPoints": 40000
     },
     {
-      "rank": 9,
-      "previousRank": 6,
+      "rank": 13,
+      "previousRank": 9,
       "pseudonym": "Sok",
       "points": 69925,
       "highestPoints": 69925,
       "lowestPoints": 40000
     },
     {
-      "rank": 10,
-      "previousRank": 9,
-      "pseudonym": "Daddy Ace",
+      "rank": 14,
+      "previousRank": 11,
+      "pseudonym": "Walrus",
+      "points": 69050,
+      "highestPoints": 71650,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 15,
+      "previousRank": 20,
+      "pseudonym": "Whiskey",
       "points": 65900,
       "highestPoints": 65900,
       "lowestPoints": 40000
     },
     {
-      "rank": 11,
-      "previousRank": 5,
-      "pseudonym": "Walrus",
-      "points": 64650,
-      "highestPoints": 71650,
+      "rank": 16,
+      "previousRank": 13,
+      "pseudonym": "The French",
+      "points": 63225,
+      "highestPoints": 63225,
       "lowestPoints": 40000
     },
     {
-      "rank": 12,
-      "previousRank": 10,
+      "rank": 17,
+      "previousRank": 12,
       "pseudonym": "Cookie monstaa",
       "points": 63100,
       "highestPoints": 63100,
       "lowestPoints": 40000
     },
     {
-      "rank": 13,
-      "previousRank": 31,
-      "pseudonym": "The French",
-      "points": 62875,
-      "highestPoints": 62875,
-      "lowestPoints": 40000
-    },
-    {
-      "rank": 14,
-      "previousRank": 17,
-      "pseudonym": "Kitaï",
-      "points": 62750,
-      "highestPoints": 62750,
-      "lowestPoints": 40000
-    },
-    {
-      "rank": 15,
-      "previousRank": 11,
-      "pseudonym": "Katsuo",
-      "points": 61050,
-      "highestPoints": 68550,
-      "lowestPoints": 40000
-    },
-    {
-      "rank": 16,
+      "rank": 18,
       "previousRank": 16,
       "pseudonym": "Sunny Road",
-      "points": 54450,
-      "highestPoints": 54450,
+      "points": 61425,
+      "highestPoints": 61425,
       "lowestPoints": 40000
     },
     {
-      "rank": 17,
-      "previousRank": 13,
+      "rank": 19,
+      "previousRank": 17,
       "pseudonym": "Nako",
       "points": 54125,
       "highestPoints": 54125,
       "lowestPoints": 40000
     },
     {
-      "rank": 18,
+      "rank": 20,
       "previousRank": 15,
+      "pseudonym": "Katsuo",
+      "points": 54050,
+      "highestPoints": 68550,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 21,
+      "previousRank": 18,
       "pseudonym": "The Duke",
       "points": 53525,
       "highestPoints": 58825,
       "lowestPoints": 40000
     },
     {
-      "rank": 19,
-      "previousRank": 14,
-      "pseudonym": "Pokerface",
-      "points": 51700,
-      "highestPoints": 52450,
+      "rank": 22,
+      "previousRank": 22,
+      "pseudonym": "Amelia",
+      "points": 52700,
+      "highestPoints": 52700,
       "lowestPoints": 40000
     },
     {
-      "rank": 20,
-      "previousRank": 16,
-      "pseudonym": "Whiskey",
-      "points": 50000,
-      "highestPoints": 57500,
-      "lowestPoints": 40000
-    },
-    {
-      "rank": 21,
+      "rank": 23,
       "previousRank": 32,
-      "pseudonym": "Attorney",
-      "points": 49850,
-      "highestPoints": 49850,
+      "pseudonym": "Imposter",
+      "points": 52650,
+      "highestPoints": 52650,
       "lowestPoints": 36500
     },
     {
-      "rank": 22,
-      "previousRank": 18,
+      "rank": 24,
+      "previousRank": 31,
+      "pseudonym": "Greven av Monte-Carlo",
+      "points": 50525,
+      "highestPoints": 50525,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 25,
+      "previousRank": 25,
+      "pseudonym": "Hardware",
+      "points": 50400,
+      "highestPoints": 50400,
+      "lowestPoints": 40000
+    },
+    {
+      "rank": 26,
+      "previousRank": 21,
+      "pseudonym": "Attorney",
+      "points": 50200,
+      "highestPoints": 50200,
+      "lowestPoints": 36500
+    },
+    {
+      "rank": 27,
+      "previousRank": 22,
       "pseudonym": "Lucky G",
       "points": 47525,
       "highestPoints": 47525,
       "lowestPoints": 40000
     },
     {
-      "rank": 23,
-      "previousRank": 19,
+      "rank": 28,
+      "previousRank": 23,
       "pseudonym": "Fork",
       "points": 47350,
       "highestPoints": 47350,
       "lowestPoints": 40000
     },
     {
-      "rank": 24,
-      "previousRank": 20,
-      "pseudonym": "Mr. House",
-      "points": 47275,
-      "highestPoints": 47275,
+      "rank": 29,
+      "previousRank": 33,
+      "pseudonym": "Bluff",
+      "points": 47350,
+      "highestPoints": 51300,
       "lowestPoints": 40000
     },
     {
-      "rank": 25,
-      "previousRank": 23,
-      "pseudonym": "Hardware",
-      "points": 45800,
-      "highestPoints": 45800,
+      "rank": 30,
+      "previousRank": 30,
+      "pseudonym": "Sander",
+      "points": 46300,
+      "highestPoints": 46300,
       "lowestPoints": 40000
     },
     {
-      "rank": 26,
+      "rank": 31,
       "previousRank": 26,
       "pseudonym": "Mr. CastleRidge",
       "points": 45500,
@@ -212,7 +252,7 @@
       "lowestPoints": 40000
     },
     {
-      "rank": 27,
+      "rank": 32,
       "previousRank": 27,
       "pseudonym": "lil broke",
       "points": 45500,
@@ -220,63 +260,47 @@
       "lowestPoints": 40000
     },
     {
-      "rank": 28,
-      "previousRank": 29,
+      "rank": 33,
+      "previousRank": 28,
       "pseudonym": "Gatekapital",
       "points": 45500,
       "highestPoints": 45500,
       "lowestPoints": 40000
     },
     {
-      "rank": 29,
+      "rank": 34,
       "previousRank": 30,
-      "pseudonym": "John Galt",
-      "points": 45500,
-      "highestPoints": 45500,
-      "lowestPoints": 40000
-    },
-    {
-      "rank": 30,
-      "previousRank": 24,
       "pseudonym": "Peter",
       "points": 45500,
       "highestPoints": 45500,
       "lowestPoints": 40000
     },
     {
-      "rank": 31,
-      "previousRank": 28,
-      "pseudonym": "Greven av Monte-Carlo",
+      "rank": 35,
+      "previousRank": 29,
+      "pseudonym": "John Galt",
       "points": 45500,
       "highestPoints": 45500,
       "lowestPoints": 40000
     },
     {
-      "rank": 32,
-      "previousRank": 21,
-      "pseudonym": "Imposter",
-      "points": 45175,
-      "highestPoints": 47250,
-      "lowestPoints": 36500
-    },
-    {
-      "rank": 33,
-      "previousRank": 33,
-      "pseudonym": "Bluff",
-      "points": 43800,
-      "highestPoints": 51300,
+      "rank": 36,
+      "previousRank": 19,
+      "pseudonym": "Pokerface",
+      "points": 44200,
+      "highestPoints": 52450,
       "lowestPoints": 40000
     },
     {
-      "rank": 34,
+      "rank": 37,
       "previousRank": 34,
       "pseudonym": "The Artist",
-      "points": 43400,
+      "points": 42300,
       "highestPoints": 43400,
       "lowestPoints": 33500
     },
     {
-      "rank": 35,
+      "rank": 38,
       "previousRank": 35,
       "pseudonym": "Kox",
       "points": 39900,
@@ -284,47 +308,47 @@
       "lowestPoints": 38900
     },
     {
-      "rank": 36,
-      "previousRank": 35,
-      "pseudonym": "Queen's Gambit",
-      "points": 39850,
-      "highestPoints": 40000,
-      "lowestPoints": 38850
+      "rank": 39,
+      "previousRank": 24,
+      "pseudonym": "Mr. House",
+      "points": 39275,
+      "highestPoints": 47275,
+      "lowestPoints": 38275
     },
     {
-      "rank": 37,
-      "previousRank": 47,
-      "pseudonym": "Lil Zack",
-      "points": 39650,
-      "highestPoints": 40000,
-      "lowestPoints": 28150
-    },
-    {
-      "rank": 38,
-      "previousRank": 36,
+      "rank": 40,
+      "previousRank": 38,
       "pseudonym": "Crush Boy",
       "points": 39275,
       "highestPoints": 45500,
       "lowestPoints": 26500
     },
     {
-      "rank": 39,
-      "previousRank": 37,
+      "rank": 41,
+      "previousRank": 39,
       "pseudonym": "Mr. Cheng",
       "points": 38700,
       "highestPoints": 45500,
       "lowestPoints": 37700
     },
     {
-      "rank": 40,
-      "previousRank": 25,
+      "rank": 42,
+      "previousRank": 40,
       "pseudonym": "Johnny Bacon",
       "points": 37850,
       "highestPoints": 45500,
       "lowestPoints": 36850
     },
     {
-      "rank": 41,
+      "rank": 43,
+      "previousRank": 43,
+      "pseudonym": "Mr. Worldwide",
+      "points": 37775,
+      "highestPoints": 40000,
+      "lowestPoints": 36775
+    },
+    {
+      "rank": 44,
       "previousRank": 41,
       "pseudonym": "lrz",
       "points": 37650,
@@ -332,15 +356,15 @@
       "lowestPoints": 36650
     },
     {
-      "rank": 42,
-      "previousRank": 39,
+      "rank": 45,
+      "previousRank": 42,
       "pseudonym": "Mighty Duck",
       "points": 37500,
       "highestPoints": 45500,
       "lowestPoints": 36500
     },
     {
-      "rank": 43,
+      "rank": 46,
       "previousRank": 43,
       "pseudonym": "Callin' and Ballin'",
       "points": 34725,
@@ -348,15 +372,79 @@
       "lowestPoints": 33725
     },
     {
-      "rank": 44,
-      "previousRank": 40,
+      "rank": 47,
+      "previousRank": 47,
+      "pseudonym": "bonden",
+      "points": 34050,
+      "highestPoints": 40000,
+      "lowestPoints": 33050
+    },
+    {
+      "rank": 48,
+      "previousRank": 48,
+      "pseudonym": "Babyface",
+      "points": 33200,
+      "highestPoints": 40000,
+      "lowestPoints": 32200
+    },
+    {
+      "rank": 49,
+      "previousRank": 44,
       "pseudonym": "Iris",
       "points": 33125,
       "highestPoints": 40000,
       "lowestPoints": 32125
     },
     {
-      "rank": 45,
+      "rank": 50,
+      "previousRank": 37,
+      "pseudonym": "Lil Zack",
+      "points": 32150,
+      "highestPoints": 40000,
+      "lowestPoints": 28150
+    },
+    {
+      "rank": 51,
+      "previousRank": 36,
+      "pseudonym": "Queen's Gambit",
+      "points": 31850,
+      "highestPoints": 40000,
+      "lowestPoints": 30850
+    },
+    {
+      "rank": 52,
+      "previousRank": 52,
+      "pseudonym": "Light",
+      "points": 31500,
+      "highestPoints": 40000,
+      "lowestPoints": 30500
+    },
+    {
+      "rank": 53,
+      "previousRank": 53,
+      "pseudonym": "Koh",
+      "points": 31500,
+      "highestPoints": 40000,
+      "lowestPoints": 30500
+    },
+    {
+      "rank": 54,
+      "previousRank": 48,
+      "pseudonym": "Wang",
+      "points": 31500,
+      "highestPoints": 40000,
+      "lowestPoints": 30500
+    },
+    {
+      "rank": 55,
+      "previousRank": 55,
+      "pseudonym": "Nikko",
+      "points": 31500,
+      "highestPoints": 40000,
+      "lowestPoints": 30500
+    },
+    {
+      "rank": 56,
       "previousRank": 45,
       "pseudonym": "ars",
       "points": 31500,
@@ -364,7 +452,7 @@
       "lowestPoints": 30500
     },
     {
-      "rank": 46,
+      "rank": 57,
       "previousRank": 46,
       "pseudonym": "Fast & furious",
       "points": 31500,
@@ -372,63 +460,47 @@
       "lowestPoints": 30500
     },
     {
-      "rank": 47,
-      "previousRank": 42,
+      "rank": 58,
+      "previousRank": 47,
       "pseudonym": "Mr. P.D.",
       "points": 31500,
       "highestPoints": 40000,
       "lowestPoints": 30500
     },
     {
-      "rank": 48,
-      "previousRank": 44,
-      "pseudonym": "Wang",
-      "points": 31500,
-      "highestPoints": 40000,
-      "lowestPoints": 30500
-    },
-    {
-      "rank": 49,
-      "previousRank": 41,
-      "pseudonym": "Blindspot",
-      "points": 31500,
-      "highestPoints": 40000,
-      "lowestPoints": 30500
-    },
-    {
-      "rank": 50,
-      "previousRank": 43,
+      "rank": 59,
+      "previousRank": 50,
       "pseudonym": "Big Chips",
       "points": 30800,
       "highestPoints": 40000,
       "lowestPoints": 29800
     },
     {
-      "rank": 51,
-      "previousRank": 46,
+      "rank": 60,
+      "previousRank": 51,
       "pseudonym": "Mr. Juice",
       "points": 30600,
       "highestPoints": 40000,
       "lowestPoints": 29600
     },
     {
-      "rank": 52,
-      "previousRank": 38,
-      "pseudonym": "Lil Teh",
-      "points": 30250,
+      "rank": 61,
+      "previousRank": 55,
+      "pseudonym": "Aces",
+      "points": 29975,
       "highestPoints": 45500,
-      "lowestPoints": 29250
+      "lowestPoints": 25700
     },
     {
-      "rank": 53,
-      "previousRank": 49,
+      "rank": 62,
+      "previousRank": 53,
       "pseudonym": "Forte",
-      "points": 28000,
+      "points": 28825,
       "highestPoints": 40000,
       "lowestPoints": 23850
     },
     {
-      "rank": 54,
+      "rank": 63,
       "previousRank": 54,
       "pseudonym": "martin scharning",
       "points": 27725,
@@ -436,52 +508,68 @@
       "lowestPoints": 26725
     },
     {
-      "rank": 55,
-      "previousRank": 48,
-      "pseudonym": "Aces",
-      "points": 26700,
+      "rank": 64,
+      "previousRank": 52,
+      "pseudonym": "Lil Teh",
+      "points": 26275,
       "highestPoints": 45500,
-      "lowestPoints": 25700
+      "lowestPoints": 25275
     },
     {
-      "rank": 56,
-      "previousRank": 50,
-      "pseudonym": "Big J",
-      "points": 26500,
-      "highestPoints": 40000,
-      "lowestPoints": 25500
-    },
-    {
-      "rank": 57,
-      "previousRank": 51,
+      "rank": 65,
+      "previousRank": 57,
       "pseudonym": "Las Vegas",
       "points": 22200,
       "highestPoints": 40000,
       "lowestPoints": 21200
     },
     {
-      "rank": 58,
-      "previousRank": 52,
+      "rank": 66,
+      "previousRank": 66,
+      "pseudonym": "Monte Cristo",
+      "points": 21500,
+      "highestPoints": 40000,
+      "lowestPoints": 20500
+    },
+    {
+      "rank": 67,
+      "previousRank": 58,
       "pseudonym": "Løkring",
       "points": 21500,
       "highestPoints": 40000,
       "lowestPoints": 20500
     },
     {
-      "rank": 59,
-      "previousRank": 45,
-      "pseudonym": "Wildcard",
-      "points": 21225,
-      "highestPoints": 45500,
-      "lowestPoints": 20225
+      "rank": 68,
+      "previousRank": 49,
+      "pseudonym": "Blindspot",
+      "points": 20000,
+      "highestPoints": 40000,
+      "lowestPoints": 19000
     },
     {
-      "rank": 60,
-      "previousRank": 53,
+      "rank": 69,
+      "previousRank": 56,
+      "pseudonym": "Big J",
+      "points": 19350,
+      "highestPoints": 40000,
+      "lowestPoints": 18350
+    },
+    {
+      "rank": 70,
+      "previousRank": 60,
       "pseudonym": "Black Widow",
       "points": 18500,
       "highestPoints": 40000,
       "lowestPoints": 17500
+    },
+    {
+      "rank": 71,
+      "previousRank": 59,
+      "pseudonym": "Wildcard",
+      "points": 14725,
+      "highestPoints": 45500,
+      "lowestPoints": 13725
     }
   ]
 }

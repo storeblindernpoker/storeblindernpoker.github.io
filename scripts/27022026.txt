@@ -1,0 +1,72 @@
+name                          , pseudonym                     , current points                , highest points                , lowest points                 
+Jakob Østby                   , Kingpin                       ,                         108925,                         108925,                          40000
+Markus                        , The Goass                     ,                          94450,                          94450,                          40000
+Erik Hauglin                  , Daddy Ace                     ,                          92925,                          92925,                          40000
+Ciarice Lim                   , Lil Rice                      ,                          89200,                          89200,                          40000
+UNKNOWN_14                    , Nori                          ,                          85450,                          85450,                          40000
+Maxine D.                     , Cruze                         ,                          84325,                          84325,                          40000
+William Ekedahl               , Snorkfrøken                   ,                          83950,                          83950,                          40000
+Lukas                         , Lukivanduki                   ,                          78425,                          78425,                          40000
+Hannah                        , Happy                         ,                          74925,                          83925,                          40000
+Max Følstad-Andersen          , Mr. X                         ,                          73575,                          73575,                          40000
+Ole Bjørn                     , Big Bear                      ,                          70700,                          85700,                          30500
+Maxime P.                     , Kitaï                         ,                          70300,                          70300,                          40000
+Sokrates Knutsen              , Sok                           ,                          69925,                          69925,                          40000
+Theodor Wålberg               , Walrus                        ,                          69050,                          71650,                          40000
+William Schjerve Moe          , Whiskey                       ,                          65900,                          65900,                          40000
+Lemmy Saint-Denis             , The French                    ,                          63225,                          63225,                          40000
+Edward                        , Cookie monstaa                ,                          63100,                          63100,                          40000
+Solveig Toje                  , Sunny Road                    ,                          61425,                          61425,                          40000
+My Nguyen                     , Nako                          ,                          54125,                          54125,                          40000
+Kai Tanaka                    , Katsuo                        ,                          54050,                          68550,                          40000
+Thomas                        , The Duke                      ,                          53525,                          58825,                          40000
+UNKNOWN_13                    , Amelia                        ,                          52700,                          52700,                          40000
+Elling                        , Imposter                      ,                          52650,                          52650,                          36500
+Kirian Ask Hayashi Helgeby    , Greven av Monte-Carlo         ,                          50525,                          50525,                          40000
+Håvard Strøm Færden           , Hardware                      ,                          50400,                          50400,                          40000
+Patrik                        , Attorney                      ,                          50200,                          50200,                          36500
+UNKNOWN_2                     , Lucky G                       ,                          47525,                          47525,                          40000
+Magnus                        , Fork                          ,                          47350,                          47350,                          40000
+Sanghun                       , Bluff                         ,                          47350,                          51300,                          40000
+UNKNOWN_17                    , Sander                        ,                          46300,                          46300,                          40000
+Vegard                        , Mr. CastleRidge               ,                          45500,                          45500,                          40000
+Lillian                       , lil broke                     ,                          45500,                          45500,                          40000
+Anja                          , Gatekapital                   ,                          45500,                          45500,                          40000
+Peter                         , Peter                         ,                          45500,                          45500,                          40000
+Ragnhild Thielemann           , John Galt                     ,                          45500,                          45500,                          40000
+UNKNOWN_9                     , Pokerface                     ,                          44200,                          52450,                          40000
+Artis                         , The Artist                    ,                          42300,                          43400,                          33500
+Martyna                       , Kox                           ,                          39900,                          40000,                          38900
+Bastian Eggum Huuse           , Mr. House                     ,                          39275,                          47275,                          38275
+Jonathan                      , Crush Boy                     ,                          39275,                          45500,                          26500
+Bendik Thune                  , Mr. Cheng                     ,                          38700,                          45500,                          37700
+Joakim                        , Johnny Bacon                  ,                          37850,                          45500,                          36850
+Aksel                         , Mr. Worldwide                 ,                          37775,                          40000,                          36775
+Lars                          , lrz                           ,                          37650,                          40000,                          36650
+Jesse                         , Mighty Duck                   ,                          37500,                          45500,                          36500
+UNKNOWN_10                    , Callin' and Ballin'           ,                          34725,                          40000,                          33725
+Nils                          , bonden                        ,                          34050,                          40000,                          33050
+Nicholas                      , Babyface                      ,                          33200,                          40000,                          32200
+Iris                          , Iris                          ,                          33125,                          40000,                          32125
+Isaac                         , Lil Zack                      ,                          32150,                          40000,                          28150
+Celine Schiøll                , Queen's Gambit                ,                          31850,                          40000,                          30850
+UNKNOWN_16                    , Light                         ,                          31500,                          40000,                          30500
+UNKNOWN_15                    , Koh                           ,                          31500,                          40000,                          30500
+Dorthy Wang                   , Wang                          ,                          31500,                          40000,                          30500
+UNKNOWN_13                    , Nikko                         ,                          31500,                          40000,                          30500
+Ameia                         , ars                           ,                          31500,                          40000,                          30500
+UNKNOWN_12                    , Fast & furious                ,                          31500,                          40000,                          30500
+Eirik Mengshoel Gausemel      , Mr. P.D.                      ,                          31500,                          40000,                          30500
+Janelle                       , Big Chips                     ,                          30800,                          40000,                          29800
+Tristan Bruvoll-Jensen        , Mr. Juice                     ,                          30600,                          40000,                          29600
+Andrea Kolstad Mortvedt       , Aces                          ,                          29975,                          45500,                          25700
+Teodor Nielsen                , Forte                         ,                          28825,                          40000,                          23850
+UNKNOWN_11                    , martin scharning              ,                          27725,                          40000,                          26725
+Thea Teh                      , Lil Teh                       ,                          26275,                          45500,                          25275
+UNKNOWN_7                     , Las Vegas                     ,                          22200,                          40000,                          21200
+Eiliv                         , Monte Cristo                  ,                          21500,                          40000,                          20500
+UNKNOWN_8                     , Løkring                       ,                          21500,                          40000,                          20500
+Ameli Eikner                  , Blindspot                     ,                          20000,                          40000,                          19000
+CJ                            , Big J                         ,                          19350,                          40000,                          18350
+Julia Alemu                   , Black Widow                   ,                          18500,                          40000,                          17500
+William Tomren-Berg           , Wildcard                      ,                          14725,                          45500,                          13725
