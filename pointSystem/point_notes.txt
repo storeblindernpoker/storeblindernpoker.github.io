@@ -1,0 +1,19 @@
+--- Direct  System ---
+Starting points: 40000
+Buyin          : 10000
+Rebuy          : 10000
+Assembly bonus : 1000
+Assembly incr  : 500
+
+---   Odd   Jobs   ---
+Dealing        : 10000
+Computer input : 2000
+
+--- Starting Stack ---
+A total of 10000 points:
+4x 25
+2x 50
+3x 100
+3x 500
+3x 1000
+1x 5000
