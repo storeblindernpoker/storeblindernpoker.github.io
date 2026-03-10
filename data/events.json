@@ -1,13 +1,79 @@
 [
   {
+    "id": "evt-010",
+    "title": "Texas Hold'em Semester Tournament Finale",
+    "date": "2026-05-10",
+    "time": "18:00",
+    "location": "To be announced",
+    "locationUrl": "",
+    "registrationUrl": "",
+    "description": "The grand finale where we crown the winner of the semester-long Texas Hold'em tournament.",
+    "status": "past"
+  },
+  {
+    "id": "evt-009",
+    "title": "Texas Hold'em Semester Tournament Round 9",
+    "date": "2026-05-08",
+    "time": "18:00",
+    "location": "To be announced",
+    "locationUrl": "",
+    "registrationUrl": "",
+    "description": "The ninth round of the semester-long Texas Hold'em tournament.",
+    "status": "past"
+  },
+  {
+    "id": "evt-Omaha",
+    "title": "Special Tournament: Pot-Limit Omaha Extreme",
+    "date": "2026-04-24",
+    "time": "18:00",
+    "location": "To be announced",
+    "locationUrl": "",
+    "registrationUrl": "",
+    "description": "We repeat the success from last semester with PLO Extreme! This is a special stand alone tournament where players will compete in a high-stakes Pot-Limit Omaha format. PLO is fun and games, but the Extreme format takes it to the next level as we bring back \"The Wheel.\"",
+    "status": "past"
+  },
+  {
+    "id": "evt-008",
+    "title": "Texas Hold'em Semester Tournament Round 8",
+    "date": "2026-04-10",
+    "time": "18:00",
+    "location": "Blindern Campus, Nils Henrik Abels Hus, Abelstua",
+    "locationUrl": "",
+    "registrationUrl": "",
+    "description": "The eight round of the semester-long Texas Hold'em tournament.",
+    "status": "past"
+  },
+  {
     "id": "evt-TobiasLeknes",
-    "title": "Special Event: Playing with the Pros - Tobias Leknes",
+    "title": "Special Event with Tobias Leknes & Texas Hold'emSemester Tournament Round 7",
     "date": "2026-03-27",
     "time": "17:00",
     "location": "To be announced",
     "locationUrl": "",
     "registrationUrl": "",
     "description": "Tobias Leknes has been Norway's top poker player for several years, is the president of the Norwegian Poker Association, and has over $1,000,000 in live tournament winnings. In this special event, Tobias will share his insights and strategies for playing poker at a high level. This is a unique opportunity to learn from one of the best in the game, and if you're lucky, you might even get a change to play a hand or two against him!",
+    "status": "past"
+  },
+  {
+    "id": "evt-Course",
+    "title": "Deal & Shuffle / Poker Strategy Course",
+    "date": "2026-03-20",
+    "time": "18:00",
+    "location": "To be announced",
+    "locationUrl": "",
+    "registrationUrl": "",
+    "description": "We are hosting a course on how to deal and shuffle cards like a pro, as well as a course on poker strategy. The dealing and shuffling course will cover the basics of how to properly handle cards, while the strategy course will delve into the nuances of poker strategy, including hand selection, betting patterns, and reading opponents. Whether you're a beginner looking to learn the ropes or an experienced player looking to refine your skills, these courses will have something for everyone.",
+    "status": "past"
+  },
+    {
+    "id": "evt-006",
+    "title": "Texas Hold'em Semester Tournament Round 6",
+    "date": "2026-03-13",
+    "time": "18:00",
+    "location": "Blindern Campus, Vilhelm Bjerknes Hus, RF Kjelleren",
+    "locationUrl": "https://link.mazemap.com/fd04f1dt",
+    "registrationUrl": "https://nettskjema.no/a/608182",
+    "description": "The sixth round of the semester-long Texas Hold'em tournament. With the tournament now past the halfway point, players are starting to make their moves in an attempt to climb the leaderboard. Who will emerge as the new leader after this round?",
     "status": "past"
   },
   {
