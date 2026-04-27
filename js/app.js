@@ -322,9 +322,19 @@ async function renderLeaderboard() {
   // Table
   const rows = data.players.map(p => {
     const change = p.previousRank - p.rank;
-    const isHighlighted = Boolean(p.highlight && p.highlight.enabled);
-    const highlightLabel = isHighlighted && p.highlight.label ? p.highlight.label : '';
-    const rowClass = isHighlighted ? ' class="highlight-player-row"' : '';
+    const hasCustomHighlight = Boolean(p.highlight && p.highlight.enabled);
+    const hasBoardFlag = Boolean(p.boardMember);
+    const isHighlighted = hasCustomHighlight || hasBoardFlag;
+    const highlightTypeRaw = hasCustomHighlight
+      ? (p.highlight.type || 'champion')
+      : (hasBoardFlag ? 'board' : '');
+    const highlightType = highlightTypeRaw === 'board' ? 'board' : 'champion';
+    const highlightLabel = hasCustomHighlight
+      ? (p.highlight.label || '')
+      : (hasBoardFlag ? 'The Board' : '');
+    const rowClasses = isHighlighted
+      ? ` class="highlight-player-row highlight-player-row--${highlightType}"`
+      : '';
     let changeHtml = '';
     if (change > 0) {
       changeHtml = `<span class="rank-change rank-change--up">▲ ${change}</span>`;
@@ -339,11 +349,11 @@ async function renderLeaderboard() {
 
     const medal = p.rank === 1 ? '🥇' : p.rank === 2 ? '🥈' : p.rank === 3 ? '🥉' : '';
     const highlightBadge = highlightLabel
-      ? `<span class="player-highlight-badge">${highlightLabel}</span>`
+      ? `<span class="player-highlight-badge player-highlight-badge--${highlightType}">${highlightLabel}</span>`
       : '';
 
     return `
-      <tr${rowClass}>
+      <tr${rowClasses}>
         <td>
           <div class="rank-cell">
             <span class="rank-number${rankClass}">${medal || p.rank}</span>
@@ -352,7 +362,7 @@ async function renderLeaderboard() {
         </td>
         <td>
           <div class="player-cell">
-            <div class="player-avatar${isHighlighted ? ' player-avatar--highlight' : ''}">${initials}</div>
+            <div class="player-avatar${isHighlighted ? ` player-avatar--highlight player-avatar--${highlightType}` : ''}">${initials}</div>
             <span class="player-name-wrap">
               <span class="player-name">${p.pseudonym}</span>
               ${highlightBadge}

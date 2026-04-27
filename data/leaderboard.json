@@ -101,7 +101,12 @@
       "pseudonym": "Mr. X",
       "points": 94625,
       "highestPoints": 94625,
-      "lowestPoints": 40000
+      "lowestPoints": 40000,
+      "highlight": {
+        "enabled": true,
+        "type": "board",
+        "label": "Deputy Chairman"
+      }
     },
     {
       "rank": 13,
@@ -133,7 +138,12 @@
       "pseudonym": "Whiskey",
       "points": 85750,
       "highestPoints": 85750,
-      "lowestPoints": 40000
+      "lowestPoints": 40000,
+      "highlight": {
+        "enabled": true,
+        "type": "board",
+        "label": "Chairman & Founder"
+      }
     },
     {
       "rank": 17,
@@ -245,7 +255,12 @@
       "pseudonym": "Mr. P.D.",
       "points": 61375,
       "highestPoints": 61400,
-      "lowestPoints": 30500
+      "lowestPoints": 30500,
+      "highlight": {
+        "enabled": true,
+        "type": "board",
+        "label": "Board Member"
+      }
     },
     {
       "rank": 31,
@@ -253,7 +268,12 @@
       "pseudonym": "Wildcard",
       "points": 61150,
       "highestPoints": 61150,
-      "lowestPoints": 16725
+      "lowestPoints": 16725,
+      "highlight": {
+        "enabled": true,
+        "type": "board",
+        "label": "Board Member"
+      }
     },
     {
       "rank": 32,
@@ -269,7 +289,12 @@
       "pseudonym": "Mr. House",
       "points": 58375,
       "highestPoints": 58375,
-      "lowestPoints": 37550
+      "lowestPoints": 37550,
+      "highlight": {
+        "enabled": true,
+        "type": "board",
+        "label": "Board Member"
+      }
     },
     {
       "rank": 34,
@@ -589,7 +614,12 @@
       "pseudonym": "Mr. Cheng",
       "points": 27900,
       "highestPoints": 45500,
-      "lowestPoints": 22900
+      "lowestPoints": 22900,
+      "highlight": {
+        "enabled": true,
+        "type": "board",
+        "label": "Board Member"
+      }
     },
     {
       "rank": 74,
