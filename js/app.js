@@ -322,6 +322,9 @@ async function renderLeaderboard() {
   // Table
   const rows = data.players.map(p => {
     const change = p.previousRank - p.rank;
+    const isHighlighted = Boolean(p.highlight && p.highlight.enabled);
+    const highlightLabel = isHighlighted && p.highlight.label ? p.highlight.label : '';
+    const rowClass = isHighlighted ? ' class="highlight-player-row"' : '';
     let changeHtml = '';
     if (change > 0) {
       changeHtml = `<span class="rank-change rank-change--up">▲ ${change}</span>`;
@@ -335,9 +338,12 @@ async function renderLeaderboard() {
     const initials = p.pseudonym.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
 
     const medal = p.rank === 1 ? '🥇' : p.rank === 2 ? '🥈' : p.rank === 3 ? '🥉' : '';
+    const highlightBadge = highlightLabel
+      ? `<span class="player-highlight-badge">${highlightLabel}</span>`
+      : '';
 
     return `
-      <tr>
+      <tr${rowClass}>
         <td>
           <div class="rank-cell">
             <span class="rank-number${rankClass}">${medal || p.rank}</span>
@@ -346,8 +352,11 @@ async function renderLeaderboard() {
         </td>
         <td>
           <div class="player-cell">
-            <div class="player-avatar">${initials}</div>
-            <span class="player-name">${p.pseudonym}</span>
+            <div class="player-avatar${isHighlighted ? ' player-avatar--highlight' : ''}">${initials}</div>
+            <span class="player-name-wrap">
+              <span class="player-name">${p.pseudonym}</span>
+              ${highlightBadge}
+            </span>
           </div>
         </td>
         <td class="points-cell">${p.points.toLocaleString()}</td>

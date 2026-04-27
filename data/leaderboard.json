@@ -49,7 +49,11 @@
       "pseudonym": "Imposter",
       "points": 108150,
       "highestPoints": 108150,
-      "lowestPoints": 36500
+      "lowestPoints": 36500,
+      "highlight": {
+        "enabled": true,
+        "label": "PLO Extreme Winner"
+      }
     },
     {
       "rank": 7,
